@@ -9,7 +9,7 @@ To upload this model into the google cloud, follow the below steps.
 3)Create a new project in the google cloud account.
 -Project will also get assigned a unique key.
 4)Enable the google cloud machine learning API for the project.
---Click on the main menu on the left, go to APIs and Services,
+-Click on the main menu on the left, go to APIs and Services,
 5)Provide billing details for your account before you can use some of the features of Google Cloud
 6)The next step is to install the Google Cloud SDK.
 7)Once you have the Google Cloud SDK installed, activate it by logging in from the command line.
