@@ -27,8 +27,5 @@ The buckets and the model can be loaded in the google cloud machine learning usi
 
 The above command throws the following error:-
 {
-  "error": "Prediction failed: Error during model execution:
-  AbortionError(code=StatusCode.FAILED_PRECONDITION, details=\"Attempting to use uninitialized value output/biases4\n\t 
-  [[Node: output/biases4/read = Identity[T=DT_FLOAT, _output_shapes=[[1]], 
-  _device=\"/job:localhost/replica:0/task:0/device:CPU:0\"](output/biases4)]]\")"
+  "error": "Prediction failed: Error during model execution: AbortionError(code=StatusCode.FAILED_PRECONDITION, details=\"Attempting to use uninitialized value output/biases4\n\t [[Node: output/biases4/read = Identity[T=DT_FLOAT, _output_shapes=[[1]], _device=\"/job:localhost/replica:0/task:0/device:CPU:0\"](output/biases4)]]\")"
 }
